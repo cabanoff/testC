@@ -10,6 +10,7 @@ void replace_decimals_with_hex(char *line) {
     //coment 2
     //comment3
     //comment4
+    //comment5
     int in_string = 0, in_single_comment = 0, in_multi_comment = 0;
     for (int i = 0; line[i] != '\0'; i++) {
         if (line[i] == '"' && !in_single_comment && !in_multi_comment) {
